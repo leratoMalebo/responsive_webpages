@@ -1,0 +1,42 @@
+{
+  "user": {
+    "fullName": "Lerato Malebo",
+    "photo": "/images/lerato.jpg"
+  },
+  "city": {
+    "name": "Reitz",
+    "photo": "images/Reitz.jpg",
+    "description": "Reitz is a small maize, wheat and cattle farming town located in the east of the Free State province of South Africa.It has one of the largest maize silos in the southern hemisphere and also thrives as a wheat and cattle farming town. Moreover, with many cosy accommodation options for tourists who wish to stay over. Facilities in the area include – bed and breakfasts, guest houses, and camping sites. The natural surroundings of Reitz make for many activities and attractions with regards to the outdoor life. All members of the family will find something to do and enjoy in the area."
+  },
+  "foreignLanguage": {
+    "language": "Spanish",
+    "phrases": [
+      {
+        "englishPhrase": "I enjoy programming and maths",
+        "foreignLanguage": "Me gusta programar y las matematicas"
+      },
+      {
+        "englishPhrase": "Born and bred in a small town called Reitz",
+        "foreignLanguage": "Nacido y criado en un pequeño pueblo llamado Reitz."
+      },
+      {
+        "englishPhrase": "Born and bred in a small town called Reitz",
+        "foreignLanguage": "Nacido y criado en un pequeño pueblo llamado Reitz."
+      }
+    ]
+  },
+  "favouriteSubjects": [
+    {
+      "name": "Discrete Mathematics",
+      "description": "Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continuous. Objects studied in discrete mathematics include integers, graphs, and statements in logi"
+    },
+    {
+      "name": "Database Management Systems",
+      "description": "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data"
+    },
+    {
+      "name": "Calculus is the branch of mathematics studying the rate of change of quantities and the length, area, and volume of objects.",
+      "description": ""
+    }
+  ]
+}
