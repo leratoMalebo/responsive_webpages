@@ -1,7 +1,7 @@
 {
   "user": {
     "fullName": "Lerato Malebo",
-    "photo": "/images/lerato.jpg"
+    "photo": "images/Lerato.jpg"
   },
   "city": {
     "name": "Reitz",
@@ -20,23 +20,26 @@
         "foreignLanguage": "Nacido y criado en un pequeño pueblo llamado Reitz."
       },
       {
-        "englishPhrase": "Born and bred in a small town called Reitz",
-        "foreignLanguage": "Nacido y criado en un pequeño pueblo llamado Reitz."
+        "englishPhrase": "Currently, I reside in Mondeor, south of Johannesburg",
+        "foreignLanguage": "Actualmente resido en Mondeor, al sur de Johannesburgo.."
       }
     ]
   },
   "favouriteSubjects": [
     {
       "name": "Discrete Mathematics",
-      "description": "Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continuous. Objects studied in discrete mathematics include integers, graphs, and statements in logi"
+      "description": "Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continuous. Objects studied in discrete mathematics include integers, graphs, and statements in logic",
+      "photo":"discrete-math.jpg"
     },
     {
       "name": "Database Management Systems",
-      "description": "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data"
+      "description": "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data",
+      "photo":"DBS.png"
     },
     {
-      "name": "Calculus is the branch of mathematics studying the rate of change of quantities and the length, area, and volume of objects.",
-      "description": ""
+      "name": "Calculus",
+      "description":  "Calculus is the branch of mathematics studying the rate of change of quantities and the length, area, and volume of objects.",
+      "photo":"Calculus.jpeg"
     }
   ]
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize Personal Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-s12">
+            <h1>{{user.fullName}}</h1>
+          </div>
+          <div class="col-s6">
+            <img src="{{user.photo}}" alt="" class="" />
+          </div>
+        </div>
+      </div>
+     <br>
+      <div class="container">
+        <div class="row">
+          <h1>{{city.name}}</h1>
+          <div class="col-sm-3 col-sm-3 col-sm-3" style="border:1px #ddd">
+           
+            <p>{{city.description}}</p> 
+          </div>
+          <div class="col-sm-3 col-sm-3 col-sm-3" style="border:1px #ddd">
+            <img src="{{city.photo}}" alt="" class="img-fluid" />  
+          </div>    
+        </div>
+      </div>
+      <div>
+        <h1>Foreign Language</h1>
+          <br>
+        <h2>{{foreignLanguage.language}}</h2>
+  
+        <table class="table table-dark table-hover">
+          <thead>
+            <tr>
+              <th scope="col">English Phrase</th>
+              <th scope="col">Foreign Phrase</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each foreignLanguage.phrases}}
+            <tr>
+              <td>{{englishPhrase}}</td>
+              <td>{{foreignLanguage}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+      <h1>Favorite Subjects</h1>
+      <br>
+      <div>
+          <div>
+              {{#each favouriteSubjects}}
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">{{name}}</h5>
+                        <p class="card-text">{{description}}</p>
+                        <img src="{{photo}}" alt="..." class="responsive-img">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              {{/each}}
+    
+</body>
+</html>
