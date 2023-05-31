@@ -1,7 +1,7 @@
 {
   "user": {
     "fullName": "Lerato Malebo",
-    "photo": "images/Lerato.jpg"
+    "photo": "/Lerato.jpg"
   },
   "bootImage": {
     
@@ -10,7 +10,7 @@
   
   "city": {
     "name": "Reitz",
-    "photo": "images/reeitzz.jpeg",
+    "photo": "/reeitzz.jpeg",
     "description": "Reitz is a small maize, wheat and cattle farming town located in the east of the Free State province of South Africa.It has one of the largest maize silos in the southern hemisphere and also thrives as a wheat and cattle farming town. Moreover, with many cosy accommodation options for tourists who wish to stay over. Facilities in the area include – bed and breakfasts, guest houses, and camping sites. The natural surroundings of Reitz make for many activities and attractions with regards to the outdoor life. All members of the family will find something to do and enjoy in the area."
   },
   "foreignLanguage": {
@@ -34,7 +34,7 @@
     {
       "name": "Discrete Mathematics",
       "description": "Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continuous. Objects studied in discrete mathematics include integers, graphs, and statements in logic.",
-      "photo":"images/discrete-math.jpg"
+      "photo":"discrete-math.jpg"
     },
     {
       "name": "Database Management Systems",
@@ -44,7 +44,7 @@
     {
       "name": "Calculus",
       "description":  "Calculus is the branch of mathematics studying the rate of change of quantities and the length, area, and volume of objects.",
-      "photo":"Calculus.jpeg"
+      "photo":"/Calculus.jpeg"
     }
   ]
 }
